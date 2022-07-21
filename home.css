@@ -1,0 +1,147 @@
+@media only screen and (min-width:601px) {
+    body {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@media print { html, body { display: none; /* hide whole page */ } }
+* {
+    box-sizing: border-box;
+    margin:0;
+    font-weight: 400;
+}
+html {
+    font-family: sans-serif;
+}
+body {
+    max-width: 600px;
+    height: 100vh;
+    background: black;
+    color: white;
+    overflow-y: scroll;
+}
+.container {
+    background: #222;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.container1 {
+    justify-content: space-between;
+}
+.container1 button {
+    padding: 3px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+}
+.container1 button:hover, .container2 button:hover {
+    background: white;
+    color: black;
+}
+.container2 button {
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    border: none;
+    background: grey;
+    margin: 3px;
+    outline: none;
+    color: white;
+}
+.container2 a {
+    color: white;
+    outline: none;
+}
+.container2 a:hover {
+    color: blue;
+}
+.container2 input {
+    height:30px;
+    color:white;
+    border-radius:15px;
+    background: grey;
+    border: none;
+    outline: none;
+    margin:auto;
+}
+.container2 input::placeholder {
+    color: #fff;
+    padding: 5px;
+}
+.container.container3 {
+    justify-content: flex-start;
+    padding: 10px !important;
+    flex-direction: row;
+    border-bottom: 0.5px solid white;
+}
+.container3 > div {
+    width:70px;
+    height:100px;
+    padding: 0;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+    border-radius: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px 0 black;
+}
+.story, .story2 {
+    width: 100%;
+    background: url("avatar.png") no-repeat scroll center;
+    background-size: 100% 100%;
+}
+.story {
+    height: 70px;
+}
+.story2 {
+    height: 100px;
+}
+.story1 {
+    width: 100%;
+    height: 12px;
+    background: transparent;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+.story2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.new {  
+    height: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    border: 1px solid blue;
+    outline: none;
+}
+.new:hover {
+    background: white;
+    color: black;
+}
+.container.container4 {
+    border-top: 0.5px solid white;
+}
+.container4 button, .container5 button, .container6 button {
+    width: 30%;
+    height: 25px;
+    background: grey;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color:white;
+}
