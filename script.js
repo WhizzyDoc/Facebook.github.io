@@ -10,7 +10,7 @@ function validateForm(){
        return false;
    }
     else if(password.value == "rigan2536") {
-        window.location.href="home.html";
+        window.location.href="pages/home.html";
     } else {
         alert("incorrect credentials");
         return false;

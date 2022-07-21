@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <title>Facebook Login</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body onload="myFunction()">
+	    <div id="welcome">
+	        <div class="container">
+	            <div style="font-size:50px;"><i class="fa fa-facebook"></i></div>
+	            <div class="loader"></div>
+	        </div>
+	    </div>
+	    
+	    
+	    
+	    
+	    <div id="login">
+	        
+	        <header>Facebook</header>
+	        <hr>
+	        <form action="#" method="POST">
+	            
+	            <label for="email">Mobile number or email address</label><br>
+	            <input type="email" id="email" value="rigantech@gmail.com" required><br>
+	            <label for="password">Password</label><br>
+	            <input type="password" id="password" required><br>
+	            <input type="button" onclick="validateForm()" value="Log In">        
+	        </form>
+	        <div style="margin-top:10px;">
+	            <a href="#" style="text-decoration:none;color:rgb(100, 100, 200);">Forgot Password?</a>
+	        </div>
+	        
+	        <div style="margin-top:30px;width:100%;padding-left:40px;padding-right:30px;">
+	            <hr>
+	            <div class="or">or</div>
+	        </div>
+	        
+	        <a href="#"><button class="create">Create New Account</button></a>
+	        
+	        
+	        
+	    </div>
+	    
+	    
+	    <script src="script.js"></script>
+	</body>
+</html>
