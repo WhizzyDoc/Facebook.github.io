@@ -31,8 +31,11 @@ body {
     align-items: center;
     margin-bottom: 5px;
 }
-.container1 {
+.container.container1 {
     justify-content: space-between;
+    background:#333;
+    margin-bottom: 0px;
+    padding-bottom:10px;
 }
 .container1 button {
     padding: 3px;
